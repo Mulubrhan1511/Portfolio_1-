@@ -22,6 +22,13 @@
 	.st16{opacity:0.2;}
 	.st17{opacity:0.3;enable-background:new    ;}
 	.st18{fill:none;}
+	.st19{fill:#F5E8D0;}
+	.st20{font-family:'Chiret-Regular';}
+	.st21{font-size:12px;}
+	.st22{fill:#E3BC3D;}
+	.st23{fill:#65994C;}
+	.st24{fill:#E18256;}
+	.st25{fill:#67ADA9;}
 </style>
 <g id="Shadow--inject-214">
 	<ellipse id="path--inject-214" class="st0" cx="377.29" cy="594.73" rx="365.51" ry="32.13"/>
@@ -548,4 +555,6 @@
 	</g>
 </g>
 <rect x="148.2" y="27.72" class="st18" width="532.48" height="86.32"/>
+<rect x="601.13" y="263.4" class="st18" width="79.97" height="38.89"/>
+<text transform="matrix(1 0 0 1 601.1334 273.6041)"><tspan x="0" y="0" class="st19 st20 st21">የ</tspan><tspan x="4.8" y="0" class="st22 st20 st21"> </tspan><tspan x="8.41" y="0" class="st20 st21">ሶፍትዌር</tspan><tspan x="0" y="14.4" class="st23 st20 st21">ኢንጅነር</tspan><tspan x="38.62" y="14.4" class="st20 st21"> </tspan><tspan x="42.23" y="14.4" class="st24 st20 st21">ወንበር</tspan><tspan x="70.39" y="14.4" class="st25 st20 st21">።</tspan></text>
 </svg>
