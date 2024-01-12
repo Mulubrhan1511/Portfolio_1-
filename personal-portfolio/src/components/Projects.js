@@ -11,17 +11,17 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "orginization",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "start-up group",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "online shop",
       description: "Design & Development",
       imgUrl: projImg3,
     },

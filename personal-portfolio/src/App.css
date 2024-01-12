@@ -305,7 +305,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background-color: #710b40;
+  background-color: #c2c2c2;
 }
 .skill-bx {
   background: #fbfbfb;
@@ -322,7 +322,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h5 {
 	font-size: 20px;
 	/* font-weight: 700; */
-  color: #000000;}
+  color:rgb(153, 22, 99);}
 .skill p {
     color: #242121;
     font-size: 18px;
