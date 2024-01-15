@@ -630,7 +630,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   top: 300px; /* Adjust the top position as needed */
   left: 0;
-  animation: moveDiagonally 4s infinite;
+  animation: moveDiagonally 40s infinite;
 }
 
 @keyframes moveDiagonally {

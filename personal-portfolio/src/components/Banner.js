@@ -51,26 +51,41 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Thank you for visiting luxm.com</span>
-                <h1>{`we are`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developers", "Web Designers", "UI/UX Designers" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>luxm developers are a team of website designers and developers with graphics design works as well any data analtics sulution
-                    for all type's of customers  </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-              </div>}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
-          </Col>
+        <Col xs={12} md={6} xl={5} className="position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center z-index-0">
+
+<TrackVisibility>
+  {({ isVisible }) =>
+    <svg className={isVisible ? "diagonal-move animate__animated animate__zoomIn" : "diagonal-move"}>
+      <image href={headerImg} alt="Header Img" />
+    </svg>
+  }
+</TrackVisibility>
+</Col>
+        <Col xs={12} md={6} xl={7} className="position-relative z-index-1">
+  <TrackVisibility>
+    {({ isVisible }) =>
+      <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+        <span className="tagline">Thank you for visiting luxm.com</span>
+        <h1>{`we are`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developers", "Web Designers", "UI/UX Designers" ]'><span className="wrap">{text}</span></span></h1>
+        <p>luxm developers are a team of website designers and developers with graphics design works as well any data analtics sulution for all type's of customers  </p>
+        <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+      </div>
+    }
+  </TrackVisibility>
+</Col>
+
+<Col xs={12} md={6} xl={5} className="position-relative z-index-1">
+  <TrackVisibility>
+    {({ isVisible }) =>
+      <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+        <img src={headerImg} alt="Header Img" className="img-behind" />
+      </div>
+    }
+  </TrackVisibility>
+</Col>
+
+
+
         </Row>
       </Container>
     </section>
