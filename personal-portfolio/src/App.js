@@ -13,6 +13,10 @@ import {New} from './components/New';
 import { NavBar } from "./components/NavBar";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { createContext, useReducer } from 'react';
+//adding google analitics tracker
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-G97B72FMRB');
 
 export const UserContext = createContext();
 

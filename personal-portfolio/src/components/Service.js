@@ -3,6 +3,8 @@ import 'react-multi-carousel/lib/styles.css';
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import meter4 from "../assets/img/meter4.svg";
+
 import Carousel from 'react-multi-carousel';
 import '../App.css'; // Import your CSS file for styling
 
@@ -49,6 +51,8 @@ export const Skills = () => {
                 <ImageWithText imageSource={meter1} altText="Web Development" textBelow="Web Development" />
                 <ImageWithText imageSource={meter2} altText="SEO Optimization" textBelow="SEO Optimization" />
                 <ImageWithText imageSource={meter3} altText="Website Design" textBelow="Website Design" />
+                <ImageWithText imageSource={meter4} altText="Graphics Design" textBelow="graphics Design" />
+
               </Carousel>
             </div>
           </div>

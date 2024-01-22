@@ -1,8 +1,6 @@
 import React from 'react'
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Projects } from "./Projects";
-import { Skills } from "./Service";
 import { Footer } from "./Footer";
 import firtsimg from "../assets/img/photo-1504992963429-56f2d62fbff0.jpeg";
 import secondimg from "../assets/img/photo-1622737133809-d95047b9e673.jpeg";
@@ -78,11 +76,21 @@ export const New = () => {
 
               <div className="card-box align-left mb-3 card-content-text">
                 <h4 className="card-title mbr-fonts-style mbr-white mb-0 display-5">
-                  <strong>Our Vision</strong>
+                  <strong>who we are</strong>
                 </h4>
                 <p className="mbr-text mbr-fonts-style mt-3 mb-0 display-7">
-                  Welcome to the world of limitless possibilities, where code meets creativity and dreams become reality. At Visionary, we are more than just web developers - we are pioneers of the digital frontier, shaping the future one line of code at a time.
+                Website Creation: Our expert designers and developers breathe life into your vision, meticulously crafting user-friendly sites that are beautiful, 
+                functional, and optimized for maximum impact.
+                SEO Optimization: We don't just build websites; we make them magnets for your target audience. Our SEO mastery ensures your online presence
+                 shines brighter than a 
+                supernova, attracting organic traffic and qualified leads.
+                Google Analytics Tracking: Data is your secret weapon, and we provide the tools to wield it. We seamlessly integrate Google Analytics,
+                 giving you real-time insights
+                into user behavior, conversion rates, and campaign performance. Empower your growth with data-driven decisions.
                 </p>
+                <h4 className="card-title mbr-fonts-style mbr-white mb-0 display-5">
+                  <strong>what are our main services</strong>
+                </h4>
                 <p className="mbr-text mbr-fonts-style mt-3 mb-0 display-7">
                   Our mission is to revolutionize the web development industry, challenging the status quo and redefining what's possible. With a team of passionate visionaries, we strive to create immersive digital experiences that leave a lasting impact.
                 </p>
@@ -95,9 +103,8 @@ export const New = () => {
         </div>
       </div>
     </section>
-        <Projects/>
-        <Skills/>
-        <div class="py-5 text-center text-info background-info">
+    
+        {/* <div class="py-5 text-center text-info background-info">
     <div class="container">
         <div class="row">
             <div class="mx-auto col-md-12">
@@ -119,13 +126,13 @@ export const New = () => {
             </div>
         </div>
     </div>
-</div>
+</div> */}
+{/* <br />
 <br />
 <br />
 <br />
 <br />
-<br />
-<br />
+<br /> */}
 <Footer />
     
     </div>

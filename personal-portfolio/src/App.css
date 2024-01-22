@@ -742,10 +742,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .cid-u25FX36Xeo .card-box {
-  max-width: 750px;
+  max-width: 800px;
   padding-top: 2rem;
   margin-left: auto;
   margin-right: 0;
+  border: none;
 }
 .cid-u25FX36Xeo img,
 .cid-u25FX36Xeo .item-img {
@@ -759,10 +760,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .cid-u25FX36Xeo .mbr-text,
 .cid-u25FX36Xeo .mbr-section-btn {
   color: #000000;
+  font-size: 22px;
 }
 .cid-u25FX36Xeo .card-title,
 .cid-u25FX36Xeo .card-box {
-  color: #232323;
+  color:#710b40;
 }
 @media (max-width: 767px) {
   .cid-u25FX36Xeo .card-content-text {
@@ -782,12 +784,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .gradient-custom {
-  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
-    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
-    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
-    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
-    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  background: rgb(195, 192, 192);
+  /* background-blend-mode: screen, color-dodge, overlay, difference, normal; */
 }
 .carousel-indicators {
   border-radius: 50%;
@@ -858,7 +856,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: none;
 }
 .contacts03 {
-  background-color: #f0a4a4; /* Change the background color to a light gray */
+  background-color: #dbdbdb; /* Change the background color to a light gray */
   color: #000000; /* Change the text color to black */
   /* Add any other styles as needed */
 }
