@@ -1,19 +1,28 @@
 import React, {useState, useEffect} from 'react';
-
+import FirstImg from '../assets/img/first.jpeg';
 
 const TestimonialSection = () => {
     const testimonials = [
         {
+        img: FirstImg,
           name: 'Maria Smantha - Web Developer',
           content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit...',
         },
         {
+            img: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp",
           name: 'Maria Smantha - Web Developer2',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit...',
+          content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur."
+          ,
         },
         {
-          name: 'Maria Smantha - Web Developer3',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit...',
+            img: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp",
+          name: 'Lisa Cudrow - Graphic Designer',
+          content: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.',
+        },
+        {
+            img: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp",
+          name: 'John Smith - Marketing Specialist',
+          content: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.',
         },
         // Add more testimonials as needed
       ];
@@ -67,7 +76,7 @@ const TestimonialSection = () => {
                         <div className="col-lg-10 col-xl-8">
                           <div className="row">
                             <div className="col-lg-4 d-flex justify-content-center">
-                              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                              <img src={testimonials[currentTestimonialIndex].img}
                                 className="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
                                 height="150" />
                             </div>
