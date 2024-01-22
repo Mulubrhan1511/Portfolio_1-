@@ -33,7 +33,7 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
+   
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -44,10 +44,10 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/personal-portfolio/src/components/Banner.js" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="/personal-portfolio/src/components/About.js" className={activeLink === 'About' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>About</Nav.Link>
-              <Nav.Link href="/personal-portfolio/src/components/Blogs.js" className={activeLink === 'Blogs' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Blog's</Nav.Link>
-              <Nav.Link href="/personal-portfolio/src/components/Projects.js" className={activeLink === 'Works' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Works</Nav.Link>
+              <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="/about" className={activeLink === 'About' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>About</Nav.Link>
+              <Nav.Link href="/" className={activeLink === 'Blogs' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Blog's</Nav.Link>
+              <Nav.Link href="/" className={activeLink === 'Works' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Works</Nav.Link>
 
             </Nav>
             <span className="navbar-text">
@@ -56,13 +56,13 @@ export const NavBar = () => {
                 <a href="facebook.com"><img src={navIcon2} alt="" /></a>
                 <a href="facebook.com"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink to='/contactus'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
+    
   )
 }
