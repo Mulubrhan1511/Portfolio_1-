@@ -300,51 +300,68 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+/* Skills.css */
 
-/************ Skills Css ************/
+/* Style for the container of the skill section */
 .skill {
-  padding: 0 0 50px 0;
+  padding: 50px 0;
   position: relative;
   background-color: #c2c2c2;
 }
+
+/* Style for the skill box */
 .skill-bx {
-  background: #fbfbfb;
-  border-radius: 64px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  font-size: 18px; /* Added 'px' unit for font size */
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  padding: 40px 50px;
+  margin-top: -100px;
+  margin-bottom: 60px;
 }
+
+/* Style for the heading */
 .skill h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   color: #710b40;
 }
-.skill h5 {
-	font-size: 20px;
-	/* font-weight: 700; */
-  color:rgb(153, 22, 99);}
-.skill p {
-    color: #242121;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
-}
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
+
+/* App.css */
+
+/* Add the following styles for the hover effect and circle */
+.item {
   position: relative;
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
 }
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.background-image-left {
-  top: 28%;
+
+/* Remove the circle styles */
+.circle {
+  display: none; /* Hide the circle */
+}
+
+.hover-text {
   position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
+  top: 0px; /* Positioning the text above the image */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #710b40;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffffff; /* Add background color */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  
 }
 
 /************ Projects Css ************/

@@ -70,7 +70,7 @@ export const Banner = () => {
         <span className="tagline">Thank you for visiting luxm.com</span>
         <h1>{`we are`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developers", "Web Designers", "UI/UX Designers" ]'><span className="wrap">{text}</span></span></h1>
         <p>luxm developers are a team of website designers and developers with graphics design works as well any data analtics sulution for all type's of customers  </p>
-        <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+        <button onClick={() => console.log('connect')}>Read more<ArrowRightCircle size={25} /></button>
       </div>
     }
   </TrackVisibility>
