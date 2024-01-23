@@ -36,11 +36,13 @@ export const Blog = () => {
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 <h3 class="mbr-section-title mbr-fonts-style mb-4 mt-0 display-2">
-                <strong>Our Community</strong>
+                <strong>About Harifsite</strong>
                 </h3>
-                <p class="mbr-text mbr-fonts-style display-7">At CodeVibe, we&#x27;re not just a community, we&#x27;re a family of passionate web developers who thrive on creativity and collaboration. Join us and experience the electric energy of our vibrant community.</p>
-                <p class="mbr-text mbr-fonts-style display-7">Our workspace is not just a place to work, it&#x27;s a playground for innovation and a haven for creativity. Step into our world and feel the pulse of web development like never before.</p>
-                <p class="mbr-text mbr-fonts-style display-7">Passion drives us, creativity defines us, and collaboration unites us. At CodeVibe, we&#x27;re not just building websites, we&#x27;re building dreams.</p>
+                <p class="mbr-text mbr-fonts-style display-7">We are a team of developers and designers, dedicated to providing top-notch graphic 
+                design and web development services. Our primary objective is to deliver comprehensive solutions that enable businesses to leverage
+                 the potential of data for making well-informed decisions and achieving improved performance. We are also aiming to broaden our 
+                 scope by venturing into the realm of data analytics services. </p>
+                
             </div>
         </div>
     </div>
@@ -51,7 +53,7 @@ export const Blog = () => {
       <div class="col-12 col-md-12 col-lg-4 main-text">
         <div class="">
           <h5 class="mbr-section-title mbr-fonts-style mt-0 mb-4 display-2">
-            <strong>Vibe Life</strong>
+            <strong>main services we can provide</strong>
           </h5>
           <h6 class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4 display-7">
             Experience the vibrant and dynamic life at CodeVibe through our gallery. From coding marathons to creative brainstorming sessions, it&#x27;s all here!
@@ -116,11 +118,32 @@ export const Blog = () => {
 			<div class="col-12 col-md-12 col-lg">
 				<div class="text-wrapper align-left">
 					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
-						<strong>Join the Vibe</strong>
+						<strong>Our mission</strong>
 					</h1>
-					<p class="mbr-text mbr-fonts-style mb-3 display-7">Ready to dive into the wild world of web development? Join CodeVibe and become a part of our vibrant community and inspiring workspace.</p>
-          <p class="mbr-text mbr-fonts-style mb-3 display-7">At CodeVibe, we&#x27;re not just building websites, we&#x27;re building dreams. Join us and unleash your creativity in a community that thrives on collaboration and innovation.</p>
-          <p class="mbr-text mbr-fonts-style mb-3 display-7">Experience the electric energy of our vibrant community and the pulse of web development like never before. Join the Vibe today!</p>
+					<p class="mbr-text mbr-fonts-style mb-3 display-7">We are committed to building long-lasting partnerships with our clients, based on trust,
+           transparency, and mutual success. Our ultimate goal is to contribute to the growth and success of businesses through our expertise in graphic
+            design, web development, and soon, data analytics. </p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">  Whether you're a small start-up or a large corporation, we are ready to collaborate with you to achieve your objectives and propel your
+             business forward.
+             </p>p
+          </div>
+			</div>
+		</div>
+	</div>
+  <div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-12 col-lg-6 image-wrapper">
+				<img class="w-100" src={fifthimg} />
+			</div>
+			<div class="col-12 col-md-12 col-lg">
+				<div class="text-wrapper align-left">
+					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
+						<strong>Our vision</strong>
+					</h1>
+					<p class="mbr-text mbr-fonts-style mb-3 display-7">We aim to achieve excellence in web development and software solutions, 
+          setting a new standard in Ethiopia.
+            Our goal is to deliver innovative and impactful digital products that empower businesses and individuals across the country.</p>
+          <p class="mbr-text mbr-fonts-style mb-3 display-7">this is Harifsite.com</p>
 				</div>
 			</div>
 		</div>
@@ -130,7 +153,7 @@ export const Blog = () => {
   <div class="container">
   <div className="mbr-section-head mb-5">
   <h4 className="mbr-section-title mbr-fonts-style mb-0 mt-0 display-2" style={{ color: 'black' }}>
-    <strong>Vibe in Action</strong>
+    <strong>we also have video</strong>
   </h4>
 </div>
 
@@ -138,9 +161,7 @@ export const Blog = () => {
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 video-block">
         <div class="video-wrapper">
-          <iframe class="mbr-embedded-video"
-            src="https://www.youtube.com/embed/tqpPBBNspTE?autoplay&#x3D;1&amp;loop&#x3D;1&amp;playlist&#x3D;tqpPBBNspTE&amp;t&#x3D;20&amp;mute&#x3D;1&amp;playsinline&#x3D;1&amp;controls&#x3D;0&amp;showinfo&#x3D;0&amp;autohide&#x3D;1&amp;allowfullscreen&#x3D;true&amp;mode&#x3D;transparent"
-            width="1280" height="720" frameborder="0" allowfullscreen></iframe>
+        <iframe width="422" height="751" src="https://www.youtube.com/embed/JlGhO1WOzmI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -152,7 +173,7 @@ export const Blog = () => {
             <div class="col-12 content-head">
                 <div class="mbr-section-head">
                     <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Our Partners</strong>
+                        <strong>Team of Harifsite</strong>
                     </h4>
                 </div>
             </div>
