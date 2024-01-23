@@ -8,7 +8,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Main } from "./Main";
-
+import { Blog } from './components/Blog';
 import {New} from './components/New';
 import { NavBar } from "./components/NavBar";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -35,6 +35,7 @@ function App() {
               <Route exact path="/" element={<Main />} />
               <Route exact path="/about" element={<New />} />
               <Route exact path="/contactus" element={<ContactUs />} />
+              <Route exact path="/blog" element={<Blog />} />
               
             </Routes>
           </div>
