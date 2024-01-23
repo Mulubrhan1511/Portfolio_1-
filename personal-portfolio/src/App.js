@@ -2,11 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ContactUs } from './components/ContactUs';
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Service";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
+import { Blog1 } from './components/Blog1';
 import { Main } from "./Main";
 import { Blog } from './components/Blog';
 import {New} from './components/New';
@@ -33,9 +29,10 @@ function App() {
           <div>
             <Routes>
               <Route exact path="/" element={<Main />} />
-              <Route exact path="/about" element={<New />} />
+              <Route exact path="/about" element={<Blog />} />
               <Route exact path="/contactus" element={<ContactUs />} />
-              <Route exact path="/blog" element={<Blog />} />
+              <Route exact path="/blog" element={<Blog1 />} />
+              <Route exact path="/about1" element={<Blog1 />} />
               
             </Routes>
           </div>
