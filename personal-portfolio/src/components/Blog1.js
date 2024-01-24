@@ -44,7 +44,7 @@ export const Blog1 = () => {
             </div>
         </div>
         <div className="row">
-            <div className="item features-image   col-lg-3 active">
+            <div className="col-12 col-md-12 col-lg-3 active">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={firstimg} />
@@ -65,7 +65,7 @@ export const Blog1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="item features-image   col-lg-3">
+            <div className="col-12 col-md-12 col-lg-3">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={secondimg} data-slide-to="1" data-bs-slide-to="1" />
@@ -85,7 +85,7 @@ export const Blog1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="item features-image   col-lg-3">
+            <div className="col-12 col-md-12 col-lg-3">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={thirdimg} data-slide-to="2" data-bs-slide-to="2" />
@@ -105,7 +105,7 @@ export const Blog1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="item features-image   col-lg-3">
+            <div className="col-12 col-md-12 col-lg-3">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={fourthimg} data-slide-to="3" data-bs-slide-to="4" />
@@ -143,7 +143,7 @@ export const Blog1 = () => {
       
 		<div className="row mbr-masonry" data-masonry="{&quot;percentPosition&quot;: true }">
             
-			<div className="item features-without-image   col-md-4 active">
+			<div className=" col-12 col-md-12 col-lg-4 active">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -158,7 +158,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className=" col-12 col-md-12 col-lg-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -173,7 +173,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="  col-12 col-md-12 col-lg-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -188,7 +188,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-12 col-md-12 col-lg-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -203,7 +203,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-12 col-md-12 col-lg-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -218,7 +218,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-12 col-md-12 col-lg-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -239,8 +239,8 @@ export const Blog1 = () => {
 <section className="features037 cid-u2bKxzVPPY" id="features-68-u2bKxzVPPY">
   <div className="container">
     <div className="row justify-content-center">
-      <div className="col-lg-4">
-        <div className="col-12 col-md-12">
+      
+        <div className="col-12 col-md-12 col-lg-4">
           <h5 className="mbr-section-title mbr-fonts-style mt-0 mb-4 display-2" style={{ color: "black" }}>
             <strong>Discover the Possibilities</strong>
           </h5>
@@ -248,9 +248,9 @@ export const Blog1 = () => {
             Unleash Your Coding Potential with DevBlog&#x27;s Exciting Features
           </h6>
         </div>
-      </div>
-      <div className="col-lg-8 side-features">
-        <div className="item features-without-image col-12 col-md-12 col-lg-6 item-mb active">
+      
+      
+        <div className="col-12 col-md-12 col-lg-4 item-mb active">
           <div className="item-wrapper">
             <div className="item-content align-left">
               <h5 className="card-title mbr-fonts-style display-5" style={{ color: "black" }}>
@@ -262,7 +262,7 @@ export const Blog1 = () => {
             </div>
           </div>
         </div>
-        <div className="item features-without-image col-12 col-md-12 col-lg-6 item-mb active">
+        <div className="col-12 col-md-12 col-lg-4 item-mb active">
           <div className="item-wrapper">
             <div className="item-content align-left">
               <h5 className="card-title mbr-fonts-style display-5" style={{ color: "black" }}>
@@ -274,7 +274,22 @@ export const Blog1 = () => {
             </div>
           </div>
         </div>
-        <div className="item features-without-image col-12 col-md-12 col-lg-6 item-mb active">
+        <div className="col-12 col-md-12 col-lg-4">
+          
+        </div>
+        <div className="col-12 col-md-12 col-lg-4 item-mb active">
+          <div className="item-wrapper">
+            <div className="item-content align-left">
+              <h5 className="card-title mbr-fonts-style display-5" style={{ color: "black" }}>
+                <strong>Trending Topics</strong>
+              </h5>
+              <p className="card-text mbr-fonts-style display-7" style={{ color: "black" }}>
+                Stay ahead of the curve with the latest trends and developments in web development.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-12 col-lg-4 item-mb active">
           <div className="item-wrapper">
             <div className="item-content align-left">
               <h5 className="card-title mbr-fonts-style display-5" style={{ color: "black" }}>
@@ -287,9 +302,9 @@ export const Blog1 = () => {
           </div>
         </div>
         
-
+       
         {/* Add similar styling for the remaining items */}
-      </div>
+      
     </div>
   </div>
 </section>
