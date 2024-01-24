@@ -16,8 +16,11 @@ export const ContactUs = () => {
             <strong>Contact Us</strong>
           </h5>
           <p class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4 display-7">
-            Phone: <a href="">+1234567890</a>
-            <br />Email: info@visionary.com
+            Phone: <a href="#">+25193703555</a>
+            <br /> Phone: <a href="#">+25193703555</a>
+
+            <br />Email: info@harifsite.com
+            <br />Email: contact@harifsite.com
             <br />Address:  Ethiopia
             <br />Working Hours: Mon - Fri: 9am - 6pm</p> 
         </div>
