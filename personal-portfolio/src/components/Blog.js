@@ -23,10 +23,10 @@ export const Blog = () => {
           <div className="row">
             <div className="content-wrap col-12 col-md-10 text-center">
               <h1 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
-                <strong>Meet Us</strong>
+                <strong>Hope You Are Ready Meet Us</strong>
               </h1>
-              <p className="mbr-fonts-style mbr-text mbr-white mb-4 display-7">We're not your average web development company. We're the rebels, the innovators, the code wizards. Join us on a journey to redefine the digital world.</p>
-              <div className="mbr-section-btn"><a className="btn btn-white-outline display-7" href="#">Join Us</a></div>
+              {/* <p className="mbr-fonts-style mbr-text mbr-white mb-4 display-7">We're not your average web development company. We're the rebels,
+               the innovators, the code wizards. Join us on a journey to redefine the digital world.</p> */}
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@ export const Blog = () => {
   <div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-12 col-lg-6 image-wrapper">
-				<img class="w-100" src={fifthimg} />
+				<img class="w-100" src={sixthimg} />
 			</div>
 			<div class="col-12 col-md-12 col-lg">
 				<div class="text-wrapper align-left">
@@ -167,7 +167,8 @@ export const Blog = () => {
     </div>
   </div>
 </section>
-<section class="features03 cid-u2aLj7edWc" id="partners-1-u2aLj7edWc">
+
+{/* <section class="features03 cid-u2aLj7edWc" id="partners-1-u2aLj7edWc">
     <div class="container-fluid">
         <div class="row justify-content-center mb-5">
             <div class="col-12 content-head">
@@ -217,12 +218,13 @@ export const Blog = () => {
             
         </div>
     </div>
-</section>
+</section> */}
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+
 <Footer />
 
     </div>
