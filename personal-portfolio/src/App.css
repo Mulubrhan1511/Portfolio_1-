@@ -862,6 +862,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .cid-u2aLj7b8ns {
   display: flex;
+  background-image: url("assets/img/photo-1496171367470-9ed9a91ea931.png");
+  background-size: cover;
+  height: 800px; /* Set the desired height here */
+}
+.cid-u2aLj7b8ns2 {
+  display: flex;
   background-image: url("assets/img/photo-1614624532983-4ce03382d63d.jpeg");
   background-size: cover;
   height: 800px; /* Set the desired height here */

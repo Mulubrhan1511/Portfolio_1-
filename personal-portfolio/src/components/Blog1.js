@@ -18,7 +18,7 @@ import tenthimg from "../assets/css/blog/img/photo-1615065591984-6800446436a1.jp
 export const Blog1 = () => {
   return (
     <div>
-       <section className="header16 cid-u2aLj7b8ns mbr-fullscreen mbr-parallax-background" id="hero-17-u2aLj7b8ns">
+       <section className="header16 cid-u2aLj7b8ns2 mbr-fullscreen mbr-parallax-background" id="hero-17-u2aLj7b8ns">
         <div className="mbr-overlay" style={{ opacity: 0.3, backgroundColor: 'rgb(0, 0, 0)' }}></div>
         <div className="container-fluid">
           <div className="row">

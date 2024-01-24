@@ -23,10 +23,10 @@ export const Blog = () => {
           <div className="row">
             <div className="content-wrap col-12 col-md-10 text-center">
               <h1 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
-                <strong>Vibe Blog</strong>
+                <strong>Meet Us</strong>
               </h1>
-              <p className="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Get ready to dive into the wild world of web development with our vibrant community and inspiring workspace.</p>
-              <div className="mbr-section-btn"><a className="btn btn-white-outline display-7" href="#">Explore More</a></div>
+              <p className="mbr-fonts-style mbr-text mbr-white mb-4 display-7">We're not your average web development company. We're the rebels, the innovators, the code wizards. Join us on a journey to redefine the digital world.</p>
+              <div className="mbr-section-btn"><a className="btn btn-white-outline display-7" href="#">Join Us</a></div>
             </div>
           </div>
         </div>
