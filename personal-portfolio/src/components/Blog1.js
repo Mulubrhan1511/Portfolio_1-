@@ -45,7 +45,7 @@ export const Blog1 = () => {
             </div>
         </div>
         <div className="row">
-            <div className="item features-image   col-lg-3 active">
+            <div className="col-lg-3 active">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={firstimg} />
@@ -66,7 +66,7 @@ export const Blog1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="item features-image   col-lg-3">
+            <div className="col-lg-3">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={secondimg} data-slide-to="1" data-bs-slide-to="1" />
@@ -86,7 +86,7 @@ export const Blog1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="item features-image   col-lg-3">
+            <div className="col-lg-3">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={thirdimg} data-slide-to="2" data-bs-slide-to="2" />
@@ -106,7 +106,7 @@ export const Blog1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="item features-image   col-lg-3">
+            <div className="col-lg-3">
                 <div className="item-wrapper">
                     <div className="item-img mb-3">
                         <img src={fourthimg} data-slide-to="3" data-bs-slide-to="4" />
@@ -144,7 +144,7 @@ export const Blog1 = () => {
       
 		<div className="row mbr-masonry" data-masonry="{&quot;percentPosition&quot;: true }">
             
-			<div className="item features-without-image   col-md-4 active">
+			<div className="col-md-4 active">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -159,7 +159,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-md-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -174,7 +174,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-md-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -189,7 +189,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-md-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -204,7 +204,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-md-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">
@@ -219,7 +219,7 @@ export const Blog1 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="item features-without-image   col-md-4">
+			<div className="col-md-4">
 				<div className="item-wrapper">
 					<div className="card-box align-left">
 						<p className="card-text mbr-fonts-style display-7">

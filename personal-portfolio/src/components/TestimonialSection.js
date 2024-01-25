@@ -45,7 +45,7 @@ const TestimonialSection = () => {
         return () => clearInterval(interval);
       }, [testimonials.length]);
   return (
-    <section className="gradient-custom">
+    <section className="">
        
       <div className="container my-5 py-5">
       
